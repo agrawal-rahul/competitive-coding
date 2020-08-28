@@ -3,6 +3,13 @@ package com.arahul.competitive;
 import java.util.HashMap;
 
 public class ArraySum {
+    /**
+     * 
+     * Problem Url: https://leetcode.com/problems/two-sum/
+     * @param nums denotes the array of integers
+     * @param target denotes the integer sum that is desired
+     * @return an array of indices of two numbers whose sum is equal to target
+     */
     public static int[] twoSumUnsorted(int[] nums, int target) {
         HashMap<Integer, Integer> numbers = new HashMap<Integer, Integer>();
 
